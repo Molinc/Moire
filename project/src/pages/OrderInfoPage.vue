@@ -16,14 +16,14 @@
           </router-link>
         </li>
         <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" :to="{ name: 'cart' }">
+          <router-link class="breadcrumbs__link" :to="{ name: 'cart' }">
             Корзина
-          </a>
+          </router-link>
         </li>
         <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link">
+          <router-link class="breadcrumbs__link">
             Оформление заказа
-          </a>
+          </router-link>
         </li>
       </ul>
 
