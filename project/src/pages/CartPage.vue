@@ -70,7 +70,7 @@ export default {
       return this.$store.state.isCartLoadingFailed;
     },
     cart() {
-      return this.$store.getters.cart.length;
+      return this.$store.getters.cart;
     },
     totalPrice() {
       return this.$store.getters.cartTotalPrice;
