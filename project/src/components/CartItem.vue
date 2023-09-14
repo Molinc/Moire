@@ -6,13 +6,17 @@
     <h3 class="product__title">
       {{ title }}
     </h3>
+<p class="product__info product__info--size">
+      Размер:{{ sizeTitle }}
+      </p>
     <p class="product__info product__info--color">
-      Цвет: 
+      Цвет:
       <span>
         <i :style="{'background-color': colorCode}"></i>
         {{ colorTitle }}
       </span>
-    </p>
+      </p>
+
     <span class="product__code">
       Артикул: {{ itemId }}
     </span>

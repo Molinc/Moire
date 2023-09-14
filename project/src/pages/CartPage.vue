@@ -36,7 +36,7 @@
       <form class="cart__form form" action="#" method="POST">
         <div class="cart__field">
           <ul class="cart__list">
-            <cart-item v-for="item in cart" :key="item.id" :title="item.product.title" :img="item.color.gallery[0].file.url" :basket-item-id="item.id" :item-id="item.product.id" :color-code="item.color.color.code" :color-title="item.color.color.title" :price="item.product.price" :amount="item.quantity"></cart-item>
+            <cart-item v-for="item in cart" :key="item.id" :size="item.size.title" :title="tem.product.title"  :img="item.color.gallery[0].file.url" :basket-item-id="item-id" :item-id="item.product.id" :color-code="item.color.color.code" :color-title="item.color.color.title" :price="item.product.price" :amount="item.quantity"></cart-item>
           </ul>
         </div>
 
