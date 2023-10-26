@@ -1,8 +1,6 @@
 <template>
   <div class="app-content">
-    <!-- окно уведомлений -->
     <BaseNotification />
-
     <header class="header container">
       <div class="header__wrapper">
         <span class="header__info">Каталог</span>
